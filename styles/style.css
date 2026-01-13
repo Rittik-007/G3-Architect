@@ -73,3 +73,8 @@ body{
     color: #727272;
     margin-bottom: 30px;
 }
+
+.banner-image img{
+    width: 90%;
+    margin-top: 50px;
+}
