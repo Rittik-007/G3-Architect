@@ -3,3 +3,73 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+.btn{
+    border: none;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 15px 25px;
+    text-align: center;
+}
+
+
+/* header section styles */
+.header-section{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 40px 10px 0;
+}
+.nav-logo{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #131313;
+
+}
+.nav-links li{
+    list-style-type: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #424242;
+    margin-left: 40px;
+    transition: 0.3s ease-in-out;
+}
+.nav-links li a:hover{
+    color: #000000;
+}
+
+.banner{
+    text-align: center;
+    padding: 100px 0 45px;
+}
+.banner h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 20px;
+}
+.banner p{
+    font-size: 1rem;
+    color: #727272;
+    margin-bottom: 30px;
+}
